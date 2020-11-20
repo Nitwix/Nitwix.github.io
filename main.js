@@ -11,7 +11,7 @@ const BTN_FONT_GROWTH = 4; //px
 const BTN_FONT_MIN_SIZE = 5;
 const BTN_MIN_SIZE = 40;
 const UNIT_PX = "px";
-const DEBUG_MODE = true; // TODO set to false
+const DEBUG_MODE = false; // TODO set to false
 
 function getRandomHexColor(){
     return "#"+((1<<24)*Math.random()|0).toString(16);
